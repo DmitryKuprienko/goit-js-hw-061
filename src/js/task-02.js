@@ -6,3 +6,8 @@ const ingredients = [
   'Herbs',
   'Condiments',
 ];
+ 
+const start = document.createElement("li")
+console.log(start)
+
+start.textContent()
