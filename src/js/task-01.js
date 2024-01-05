@@ -7,4 +7,3 @@ itemRef.forEach(element => {
   console.log('Elements=>', element.lastElementChild.childElementCount);
 });
 // console.log([])
-$env: PATH += ';C:Program FilesGit\bin';
