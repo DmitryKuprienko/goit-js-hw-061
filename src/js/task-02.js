@@ -1,9 +1,9 @@
-const ingredients = ['Potatoes', 'Mushrooms', 'Garlic', 'Tomatos', 'Herbs', 'Condiments'];
+// const ingredients = ['Potatoes', 'Mushrooms', 'Garlic', 'Tomatos', 'Herbs', 'Condiments'];
 
-const start = document.createElement('li');
-console.log(start);
+// const start = document.createElement('li');
+// console.log(start);
 
-start.textContent();
+// start.textContent();
 
 // const basket = {
 //   items: [],
@@ -85,3 +85,23 @@ start.textContent();
 
 // basket.decreaseQuntity('apricot');
 // console.table('зменшення в масиві ', basket.getItems());
+
+// const fna1 = function (mesedge, calbeck) {
+//   calbeck(mesedge);
+// };
+
+// fna1('приві456', function (mesenger) {
+//   console.log(mesenger);
+// });
+
+const doMatch = function (a, b, calbeck) {
+  return console.log(calbeck(a, b));
+};
+
+const sum = (x, y) => x + y;
+const difference = (x, y) => x - y;
+const dobutok = (x, у) => x * у;
+
+doMatch(5, 6, sum);
+doMatch(122, 22, difference);
+doMatch(6, 8, dobutok);
