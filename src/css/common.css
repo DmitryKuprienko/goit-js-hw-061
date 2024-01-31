@@ -25,6 +25,7 @@ button {
 
 .gallery li {
   flex: 1;
+
   text-align: center;
   border: 1px solid #ccc;
   padding: 10px;
