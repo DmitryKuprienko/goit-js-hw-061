@@ -1,13 +1,19 @@
-const itputRef = document.querySelector('#name-input');
+const formRef = document.querySelector('#name-input');
 
 const outpuRef = document.querySelector('#name-output');
-console.dir(outpuRef);
+// console.dir(outpuRef);
 
-console.dir(itputRef);
+// console.dir(itputRef);
 
-itputRef.addEventListener('input', event => {
-  if ((outpuRef.textContent = '')) {
-    outpuRef.textContent = 'Anonymous';
-  }
-  outpuRef.textContent = event.currentTarget.value;
-});
+// formRef.addEventListener('input', event => {
+//   if ((outpuRef.textContent = '')) {
+//     outpuRef.textContent = 'Anonymous';
+//   }
+//   outpuRef.textContent = event.currentTarget.value;
+// });
+
+formRef.addEventListener('submit', onFormSumbit);
+
+function onFormSumbit(event) {
+  console.log('привіт');
+}
