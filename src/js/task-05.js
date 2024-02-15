@@ -9,5 +9,5 @@ itputRef.addEventListener('input', event => {
   if ((outpuRef.textContent = '')) {
     outpuRef.textContent = 'Anonymous';
   }
-  outpuRef.textContent = event.data;
+  outpuRef.textContent = event.currentTarget.value;
 });
