@@ -12,8 +12,3 @@ const outpuRef = document.querySelector('#name-output');
 //   outpuRef.textContent = event.currentTarget.value;
 // });
 
-formRef.addEventListener('submit', onFormSumbit);
-
-function onFormSumbit(event) {
-  console.log('привіт');
-}
